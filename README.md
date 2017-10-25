@@ -4,4 +4,4 @@ Running:
 
 `npm start`
 
-App will be available on [http://localhost:8080].
+App will be available on (http://localhost:8080).
