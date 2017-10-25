@@ -1,0 +1,38 @@
+.exchange {
+	text-align: center;
+}
+
+.exchange__block {
+	position: relative;
+}
+
+.exchange__from-input-group, .exchange__to-value {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	font-size: 24px;
+	width: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: left;
+	display: flex;
+}
+
+.exchange__from-input {
+	width: 100%;
+	font-size: inherit;
+}
+
+.exchange__slick {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.exchange__sign {
+	opacity: 0;
+}
+
+.exchange_has-value .exchange__sign {
+	opacity: 1;
+}
